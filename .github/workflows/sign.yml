@@ -28,9 +28,9 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run
       env:
-        HAIDAN_UID: ${{ secrets.HAIDAN_UID }}
-        HAIDAN_PASS: ${{ secrets.HAIDAN_PASS }}
-        HAIDAN_LOGIN: ${{ secrets.HAIDAN_LOGIN }}
+        HAIDAN_UID: Mzg2MTI%3D
+        HAIDAN_PASS: 55883369ff46541a9de556a23f5953ce
+        HAIDAN_LOGIN: bm9wZQ%3D%3D
         HAIDAN_MULTI: ${{ secrets.HAIDAN_MULTI }}
         HAIDAN_PRIVACY: ${{ secrets.HAIDAN_PRIVACY }}
       run: |
