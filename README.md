@@ -18,7 +18,7 @@
 
 ## 使用方法
 
-- **Fork** 本项目
+- *Fork*本项目
 - 登录[海胆之家](https://www.haidan.video/)后，获得Cookies
   - `c_secure_uid`
   - `c_secure_pass`
